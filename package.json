@@ -18,7 +18,7 @@
     "bench": "node bench",
     "build": "node builder",
     "prebench": "npm run build",
-    "test": "xo && tape test/*.js | tap-spec"
+    "test": "tape test/*.js | tap-spec"
   },
   "files": [
     "dist"
