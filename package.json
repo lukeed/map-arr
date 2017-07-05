@@ -1,6 +1,6 @@
 {
   "name": "map-arr",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "lukeed/map-arr",
   "description": "A tiny, faster alternative to native Array.prototype.map",
   "module": "dist/map-arr.es.js",
