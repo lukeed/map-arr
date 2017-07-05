@@ -2,7 +2,7 @@
 
 > A tiny (124b), faster alternative to native `Array.prototype.map`!
 
-JavaScript's native `Array.prototype.map` is (unfortunately) ***much** slower than standard for-loops.
+JavaScript's native `Array.prototype.map` is (unfortunately) ***much*** slower than standard for-loops.
 
 This module has no dependencies and serves as a drop-in replacement for Node.js _and_ the browser!
 
