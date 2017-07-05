@@ -1,4 +1,4 @@
-# map-arr [![Build Status](https://travis-ci.org/lukeed/map-str.svg?branch=master)](https://travis-ci.org/lukeed/map-str)
+# map-arr [![Build Status](https://travis-ci.org/lukeed/map-arr.svg?branch=master)](https://travis-ci.org/lukeed/map-arr)
 
 > A tiny (124b), faster alternative to native `Array.prototype.map`!
 
