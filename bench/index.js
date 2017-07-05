@@ -1,6 +1,7 @@
 const Table = require('cli-table2');
 const { Suite } = require('benchmark');
 const arrayMap = require('array-map');
+const fast = require('fast.js').map;
 const arrMap = require('arr-map');
 
 const curr = require('../dist/map-arr');
@@ -14,6 +15,7 @@ bench
 	.add('map-arr', () => curr(foo, bar))
 	.add('arr-map', () => arrMap(foo, bar))
 	.add('array-map', () => arrayMap(foo, bar))
+	.add('fast.map', () => fast(foo, bar))
 	.on('cycle', e => console.log(String(e.target)))
 	.on('complete', function() {
 		console.log('Fastest is ' + this.filter('fastest').map('name'));

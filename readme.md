@@ -45,13 +45,15 @@ This module is a drop-in replacement for [`Array.prototype.map`](https://develop
 
 ```
 native
-  --> 141,953 ops/sec ±0.15% (95 runs sampled)
+  --> 135,718 ops/sec ±1.01% (91 runs sampled)
 map-arr
-  --> 4,202,912 ops/sec ±0.72% (94 runs sampled)
+  --> 4,173,557 ops/sec ±0.66% (93 runs sampled)
 arr-map
-  --> 3,820,479 ops/sec ±0.37% (96 runs sampled)
+  --> 3,795,695 ops/sec ±0.45% (92 runs sampled)
 array-map
-  --> 135,490 ops/sec ±1.15% (92 runs sampled)
+  --> 143,184 ops/sec ±0.35% (96 runs sampled)
+fast.map
+  --> 4,071,927 ops/sec ±0.40% (90 runs sampled)
 ```
 
 
