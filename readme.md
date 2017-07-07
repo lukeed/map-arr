@@ -2,43 +2,15 @@
 
 > A tiny (124b), faster alternative to native `Array.prototype.map`!
 
-JavaScript's native `Array.prototype.map` is (unfortunately) ***much*** slower than standard for-loops.
+## MOVED!
 
-This module has no dependencies and serves as a drop-in replacement for Node.js _and_ the browser!
+My motivation for faster-than-native `Array.prototype`s continued! This module is part of the bunch.
 
-It is ES3-compatible, which means it will run on _any_ browser and be the fastest version you can use.
+Although the collection is still actively WIP, you may go [here](https://github.com/lukeed/arr) for further updates.
 
-Lastly, it is CommonJS & ES-Module friendly :tada:
+This repository will not be updated or maintained.
 
-
-## Install
-
-```
-$ npm install --save map-arr
-```
-
-
-## Usage
-
-```js
-// import mapArr from 'map-arr';
-const mapArr = require('map-arr');
-
-mapArr(['foo', 'bar', 'baz'], el => {
-	return el + el;
-});
-//=> ['foofoo', 'barbar', 'bazbaz']
-
-mapArr(['foo', 'bar', 'baz'], (el, idx) => {
-	return el + idx;
-});
-//=> ['foo0', 'bar1', 'baz2']
-```
-
-
-## API
-
-This module is a drop-in replacement for [`Array.prototype.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), which means it has the same API and behavior!
+...Still here?! You should _really_ go to the collection :point_up:
 
 
 ## Benchmarks
